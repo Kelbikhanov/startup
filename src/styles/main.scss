@@ -1,1 +1,55 @@
+$light-color: #fff;
 
+
+.wrap{
+    max-width:1140px ;
+    margin: 0 auto ;
+}
+.page-main{
+    background-image: url(../img/main-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    &__logo{
+        display: block;
+        font-size: 24px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700 ;
+        color: $light-color;
+    }
+    &-list {
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        &__item{
+            margin-left: 36px;
+            letter-spacing: -0.1px;
+            margin-top: 13px;
+            font-size: 14px;
+            color: $light-color;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400 ;
+        }
+    }
+}
+.page-text{
+    text-align: center;
+    &__title{
+        color:  $light-color;
+        font-size: 48px;
+        font-family: 'Montserrat', sans-serif;
+         font-weight: 400 ;
+         margin-top: 224px;
+    }
+    &__text{
+        color:  $light-color;
+        font-size: 20px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400 ;
+        margin-top: -25px;
+    }
+    
+}
